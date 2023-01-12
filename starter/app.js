@@ -33,7 +33,6 @@ btnNew.addEventListener("click", function () {
   count = 0;
   activePlayer[0].classList.add("active");
   activePlayer[1].classList.remove("active");
-  //let playerName = document.querySelectorAll('.player-name');
   playerScore[0].textContent = 0;
   playerCurrentScore[0].textContent = 0;  
   playerScore[1].textContent = 0;
